@@ -1,4 +1,6 @@
-﻿namespace AndradeJamirTallerLayout
+﻿using AndradeJamirTallerLayout.Views;
+
+namespace AndradeJamirTallerLayout
 {
     public partial class MainPage : ContentPage
     {
@@ -19,6 +21,11 @@
                 CounterBtn.Text = $"Clicked {count} times";
 
             SemanticScreenReader.Announce(CounterBtn.Text);
+        }
+
+        private void IrATest_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new GridPage());
         }
     }
 
