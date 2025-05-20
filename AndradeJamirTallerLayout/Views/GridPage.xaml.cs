@@ -6,4 +6,10 @@ public partial class GridPage : ContentPage
 	{
 		InitializeComponent();
 	}
+
+
+    private void IrAStack_Clicked(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new StackPage());
+    }
 }

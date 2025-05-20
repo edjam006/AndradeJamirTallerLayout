@@ -19,7 +19,7 @@
                HorizontalOptions="Center"
                VerticalOptions="Center" />
         <BoxView Grid.Column="1"
-                 Color="Blue" />
+                 Color="AliceBlue" />
         <Label Grid.Column="1"
                
                HorizontalOptions="Center"
@@ -43,7 +43,10 @@
                      VerticalOptions="Center">
             <Button Text="Ir a Stack"
                     WidthRequest="100"
-                    HeightRequest="40"/>
+                    HeightRequest="40"
+                    x:Name="IrAStack"
+                    Clicked="IrAStack_Clicked"
+                    />
         </StackLayout>
 
     </Grid>
