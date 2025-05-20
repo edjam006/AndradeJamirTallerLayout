@@ -3,10 +3,21 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AndradeJamirTallerLayout.Views.FlexPage"
              Title="FlexPage">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+
+    <VerticalStackLayout Padding="20" Spacing="20">
+
+        <FlexLayout Direction="Row" Wrap="Wrap" JustifyContent="Start">
+            <Button Text="Eduardo" WidthRequest="100" HeightRequest="50" />
+            <Button Text="Jamir" WidthRequest="100" HeightRequest="50" />
+            <Button Text="Andrade" WidthRequest="100" HeightRequest="50" />
+            <Button Text="Cedeno" WidthRequest="100" HeightRequest="50" />
+        </FlexLayout>
+
+        <Button x:Name="IrAAbsolute"
+                Text="Ir a Absolute"
+                WidthRequest="200"
+                HeightRequest="40"
+                Clicked="IrAAbsolute_Clicked" />
+
     </VerticalStackLayout>
 </ContentPage>
