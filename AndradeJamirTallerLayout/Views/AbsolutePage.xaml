@@ -2,11 +2,31 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AndradeJamirTallerLayout.Views.AbsolutePage"
-             Title="AbsolutePage">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+             Title="Proportional demo">
+    <AbsoluteLayout>
+
+        <Label Text="Construcción y Lujo Sin Precedentes
+                    Construido por el astillero Harland and Wolff en Belfast, Irlanda del Norte, el Titanic fue el barco más grande y lujoso de su tiempo. Medía más de 269 metros de eslora y podía transportar a más de 3,500 personas entre pasajeros y tripulación. Sus interiores eran opulentos, con grandes escalinatas, restaurantes de primera clase, baños turcos y gimnasios. Estaba diseñado para ser el epítome de la comodidad y la seguridad, lo que llevó a la creencia popular de que era "insumergible" debido a sus avanzados compartimentos estancos.
+
+                    El Viaje Fatal y el Choque
+                    El 10 de abril de 1912, el Titanic zarpó de Southampton con alrededor de 2,224 personas a bordo. Al mando estaba el experimentado Capitán Edward J. Smith. A pesar de las advertencias de icebergs en la ruta, el barco navegaba a una velocidad considerable. La noche del 14 de abril, alrededor de las 23:40, el Titanic chocó con un iceberg gigante en el Atlántico Norte. El impacto causó una serie de perforaciones a lo largo del lado de estribor del casco, comprometiendo varios de los compartimentos estancos delanteros.
+
+                    El Hundimiento y la Tragedia
+                    Inicialmente, muchos pasajeros no se dieron cuenta de la gravedad de la situación. Sin embargo, pronto quedó claro que el barco se estaba hundiendo. El Titanic solo contaba con botes salvavidas para aproximadamente la mitad de las personas a bordo, una deficiencia crítica debido a las regulaciones de la época, que se basaban en el tonelaje del barco y no en el número de pasajeros. Esto llevó a escenas de confusión y pánico. Las mujeres y los niños tuvieron prioridad en los botes salvavidas, aunque en algunos casos, los botes se botaron sin estar completamente llenos.
+
+                    El proceso de evacuación fue caótico y, en las gélidas aguas del Atlántico, la mayoría de los que cayeron al mar sucumbieron a la hipotermia en cuestión de minutos. El Titanic se hundió completamente dos horas y cuarenta minutos después del choque, a las 02:20 del 15 de abril. De las 2,224 personas a bordo, más de 1,500 perdieron la vida, convirtiéndose en uno de los peores desastres marítimos en tiempos de paz.
+
+                    Consecuencias y Legado
+                    La tragedia del Titanic tuvo un impacto profundo en la opinión pública y dio lugar a importantes cambios en las regulaciones de seguridad marítima. Se establecieron nuevas normativas sobre la cantidad de botes salvavidas, la inspección de buques, la capacitación de la tripulación y el establecimiento de la Patrulla Internacional del Hielo. El descubrimiento de los restos del naufragio en 1985 por Robert Ballard reavivó el interés público en la historia del Titanic, que ha sido inmortalizada en innumerables libros, documentales y películas, incluyendo la exitosa producción de James Cameron de 1997.
+
+                    El Titanic sigue siendo un recordatorio sombrío de la vulnerabilidad humana ante la naturaleza y un símbolo de la arrogancia tecnológica, pero también un testimonio de la valentía y el sacrificio humano en momentos de crisis."
+               HorizontalOptions="Center"
+               AbsoluteLayout.LayoutBounds="0.5,0.5,110,25"
+               AbsoluteLayout.LayoutFlags="PositionProportional" />
+        <Button x:Name="IrAMain"
+                AbsoluteLayout.LayoutBounds="1,1,110,25"
+                Text="Ir a Main"
+                Clicked="IrAMain_Clicked"
+                />
+    </AbsoluteLayout>
 </ContentPage>
