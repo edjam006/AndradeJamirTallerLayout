@@ -12,6 +12,8 @@
                 Text="Flex Page"
                 WidthRequest="100"
                 HeightRequest="40"
+                Style="{StaticResource Boton1}"
+                FontSize="15"
                 Clicked="IrAFlex_Clicked"
             />
     </StackLayout>

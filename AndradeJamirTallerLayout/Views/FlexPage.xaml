@@ -17,6 +17,8 @@
                 Text="Ir a Absolute"
                 WidthRequest="200"
                 HeightRequest="40"
+                Style="{StaticResource Boton1}"
+                FontSize="15"
                 Clicked="IrAAbsolute_Clicked" />
 
     </VerticalStackLayout>

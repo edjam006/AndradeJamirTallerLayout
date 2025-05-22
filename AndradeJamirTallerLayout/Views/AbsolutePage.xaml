@@ -27,6 +27,7 @@
                 Text="Ir a Main"
                 AbsoluteLayout.LayoutBounds="1,1,120,50"
                 AbsoluteLayout.LayoutFlags="PositionProportional"
+                Style="{StaticResource Boton1}"
                 Clicked="IrAMain_Clicked" 
                 />
 

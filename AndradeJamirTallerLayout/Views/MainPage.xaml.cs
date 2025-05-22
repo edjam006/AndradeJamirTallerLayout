@@ -23,7 +23,8 @@ namespace AndradeJamirTallerLayout
             SemanticScreenReader.Announce(CounterBtn.Text);
         }
 
-        private void IrATest_Clicked(object sender, EventArgs e)
+
+        private void IrAGrid_Clicked(object sender, EventArgs e)
         {
             Navigation.PushAsync(new GridPage());
         }

@@ -45,6 +45,8 @@
                     WidthRequest="100"
                     HeightRequest="40"
                     x:Name="IrAStack"
+                    Style="{StaticResource Boton1}"
+                    FontSize="15" 
                     Clicked="IrAStack_Clicked"
                     />
         </StackLayout>
